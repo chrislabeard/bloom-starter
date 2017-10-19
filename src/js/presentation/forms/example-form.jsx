@@ -75,7 +75,7 @@ const ExampleForm = (props) => {
         onChange={ props.manualFieldUpdate } formId='example-form'
         files={ formData['file-droppable'] && formData['file-droppable'].value || [] }
       />
-      <Button onClick={ props.submitForm } text='Log in' className='Btn LoginForm-submit-button u-justify-center' />
+      <Button onClick={ props.submitForm } contents='Log in' className='Btn LoginForm-submit-button u-justify-center' />
     </form>
   )
 }
